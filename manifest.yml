@@ -1,0 +1,9 @@
+name: WeatherTelegramBot2019
+path: target/weather-telegram-bot-0.0.1-SNAPSHOT.jar
+buildpack: https://github.com/cloudfoundry/java-buildpack.git
+memory: 1G
+env:
+  telegram_token: <insert here>
+  telegram_username: <insert here>
+  api_key: <insert here>
+
